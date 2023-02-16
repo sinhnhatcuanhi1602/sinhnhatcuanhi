@@ -8,7 +8,7 @@
   z-index: 0;
   background-repeat: no-repeat;
   /* 3. Đổi ảnh nền tại đây */
-  background-image: url(../img/background.png); 
+  background-image: url(../img/anhnenthay.jpg); 
   background-size: cover;
   background-position: 50%;
   -webkit-filter: blur(4px);
@@ -24,14 +24,14 @@ audio {
     position: absolute;
     display: inline-block;
     left: 35%; 
-    top: 40vh;
+    top: 50vh;
     -webkit-transition: all 0.1s ease-out;
   }
   #yes{
     position: absolute;
     display: inline-block;
     left: 70%; 
-    top: 40vh;
+    top: 50vh;
     -webkit-transition: all 0.3s ease-out;
   }
 
@@ -57,12 +57,32 @@ header h4 {
   text-align: center;
 }
 
-@media only screen and (max-width: 500px) {
+.hello{
+  white-space: pre;
+  width: 50%;
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: 2.2rem;
+  margin-top: 13px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 700px) {
   header h2 {
     font-family: 'Pacifico';
     font-size: 45px;
     text-align: center;
     margin-bottom: 30px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .hello {
+    width: 100%;
+    font-size: 13px;
   }
   header h4 {
     font-family: 'Pacifico';
@@ -73,7 +93,7 @@ header h4 {
     position: absolute;
     display: inline-block;
     left: 7%; 
-    top: 40vh;
+    top: 60vh;
     font-size: 14px;
     padding: 3px;
     -webkit-transition: all 0.1s ease-out;
@@ -82,7 +102,7 @@ header h4 {
     position: absolute;
     display: inline-block;
     left: 58%; 
-    top: 40vh;
+    top: 60vh;
     font-size: 14px;
     padding: 3px;
     -webkit-transition: all 0.3s ease-out;

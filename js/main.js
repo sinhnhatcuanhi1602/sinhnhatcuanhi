@@ -24,7 +24,7 @@ function firstQuestion(){
         text: CONFIG.introDesc,
 
         // 2. Ảnh ở câu hỏi đầu tiên
-        imageUrl: 'img/cute.jpg',
+        imageUrl: 'img/hinhthay.gif',
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff linear-gradient( 310deg, #7928ca 0%, #ff0080 100%)',
@@ -32,7 +32,7 @@ function firstQuestion(){
         confirmButtonText: CONFIG.btnIntro
       }).then(function(){
         $('.content').show(200);
-        var audioB = new Audio('sound/backgroundmusic.mp3');
+        var audioB = new Audio('sound/nhacnenthay.mp3');
         audioB.play();
       })
 }
@@ -121,11 +121,12 @@ $('#yes').click(function() {
     }).then((result) => {
         if (result.value) {
             Swal.fire({
-                width: 900,
+                width: 1000,
                 confirmButtonText: CONFIG.btnAccept,
                 background: '#fff url("img/iput-bg.jpg")',
-                title: CONFIG.mess,
-                text: CONFIG.messDesc,
+                // title: CONFIG.mess,
+                html: "<div class='container'><div class='hello'>" + CONFIG.poem1 + "</div> <div class='hello'>" + CONFIG.poem2 + "</div> </div> <div class='hello1'>"+CONFIG.messDesc + "</div>",
+                title: CONFIG.messTitle,
                 confirmButtonColor: '#83d0c9',
             })
         }
