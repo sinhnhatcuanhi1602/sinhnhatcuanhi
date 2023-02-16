@@ -1,9 +1,9 @@
 // 1. Chỉnh sửa các dòng chữ theo mục đích của bạn
 const CONFIG = {
-    introTitle: 'Chị Điệp ơi ',
-    introDesc: `Hôm nay… là ngày 20/10 rồi ấy, Em có lời muốn nói với chị… (^_^)`,
+    introTitle: ' Chào Nhi, Quỳnh đứng từ hồi chiều tới giờ! ',
+    introDesc: `Quỳnh nói nhỏ cái này nghe, đã sẵn sàng chưa??`,
     btnIntro: 'OK',
-    title: 'Hôm nay, là ngày Phụ nữ Việt Nam, em chỉ muốn nói là…',
+    title: 'Hôm nay, là một ngày đặt biệt, Quỳnh em chỉ muốn nói là…',
     desc: 'Mà đố chị, em định nói gì đấy? 😉 ',
     btnYes: 'Uhm, để đoán thử ',
     btnNo: 'Không biết, đoán không ra',
