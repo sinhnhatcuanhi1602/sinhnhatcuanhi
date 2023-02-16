@@ -10,7 +10,7 @@ const CONFIG = {
     question:'Nhắm mắt lại, cảm nhận hơi thở của mình và nghĩ điều đó lúc này!',
     reasonPlaceholder: 'Và gõ những gì mình nghĩ vào đây nha...',
     btnReply: 'Send',
-    reply: 'Nhi à, hôm nay sinh nhật rồi ấy, hãy là cô gái mạnh mẽ, luôn mỉm cười rạng ngời trước cuộc sống và và luôn đủ đầy năng lượng đón nhận mọi điều trong cuộc sống',
+    reply: 'Nhi à, hôm nay sinh nhật rồi ấy, hãy là cô gái luôn tiến lên về phía trước, luôn tự tin, luôn mỉm cười rạng ngời trước cuộc sống và luôn tràn đầy năng lượng đón nhận mọi điều trong cuộc sống nha',
     poem1:' Happy Birthday ^^ ',
     poem2:'    Ngồi đây cầm bút vẽ vời\n\
     Viết thơ sinh nhật gửi lời đẹp tươi \n\
