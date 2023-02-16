@@ -11,8 +11,7 @@ const CONFIG = {
     reasonPlaceholder: 'Và gõ những gì mình nghĩ vào đây nha...',
     btnReply: 'Send',
     reply: 'Nhi à, hôm nay sinh nhật rồi ấy, hãy là cô gái mạnh mẽ, luôn mỉm cười rạng ngời trước cuộc sống và và luôn đủ đầy năng lượng đón nhận mọi điều trong cuộc sống 🥳',
-    poem1:' Happy Birthday
-    ',
+    poem1:' Happy Birthday',
     poem2:'    Ngồi đây cầm bút vẽ vời\n\
     Viết thơ sinh nhật gửi lời đẹp tươi \n\
     Chúc luôn vui vẻ nụ cười\n\
