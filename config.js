@@ -3,29 +3,24 @@ const CONFIG = {
     introTitle: ' Chào Nhi, Quỳnh đứng từ hồi chiều tới giờ! ',
     introDesc: `Quỳnh nói nhỏ cái này nghe, đã sẵn sàng chưa??`,
     btnIntro: 'OK',
-    title: 'Hôm nay, là một ngày đặt biệt, Quỳnh em chỉ muốn nói là…',
-    desc: 'Mà đố chị, em định nói gì đấy? 😉 ',
+    title: 'Hôm nay, là một ngày đặt biệt của cô gái tuổi 23, Quỳnh chỉ muốn nói là..',
+    desc: 'Mà đố Nhi, Quỳnh định nói gì đấy? 😉 ',
     btnYes: 'Uhm, để đoán thử ',
     btnNo: 'Không biết, đoán không ra',
-    question:'Chắc là',
-    reasonPlaceholder: 'Gõ bất kì nội dung gì chị nghĩ vào đây nha...',
+    question:'Nhắm mắt lại, cảm nhận hơi thở của mình và nghĩ điều đó lúc này!',
+    reasonPlaceholder: 'Và gõ những gì mình nghĩ vào đây nha...',
     btnReply: 'Send',
-    reply: 'Chị Điệp ơi... Hôm nay là 20/10 rồi ấy, em chúc chị ngày càng trẻ trung, dồi dào sức khoẻ và tràn đầy năng lượng trong cuộc sống.🥳',
-    poem1:'    Hôm nay, đường phố bán bông\n\
-    Rộn ràng ai cũng đóa hồng trên tay\n\
-    Mình đi, bỗng thấy hay hay\n\
-    Dặn lòng tự hỏi hôm nay ngày gì?\n\
-    Thì ra ngày lễ chứ chi\n\
-    Nhìn qua ghế chị mà đâu mất rồi\n\
+    reply: 'Nhi à, hôm nay sinh nhật rồi ấy, hãy là cô gái mạnh mẽ, luôn mỉm cười rạng ngời trước cuộc sống và và luôn đủ đầy năng lượng đón nhận mọi điều trong cuộc sống 🥳',
+    poem1:' Happy Birthday
     ',
     poem2:'    Ngồi đây cầm bút vẽ vời\n\
-    Viết thơ chúc chị những lời đẹp tươi \n\
+    Viết thơ sinh nhật gửi lời đẹp tươi \n\
     Chúc luôn vui vẻ nụ cười\n\
     Ngày càng thêm trẻ rạng ngời như hoa\n\
     Chúc cho cuộc sống thuận hòa\n\
     Ngập tràn năng lượng đong đầy yêu thương.\n\
     ',
-    messTitle: "Gửi Chị Điệp",
-    messDesc: 'Chúc chị Điệp 20/10 thật vui vẻ 🥳',
+    messTitle: "Gửi bạn của tui! Mong mọi điều tốt đẹp sẽ đến với Nhi. Ráng cố gắng tết sang năm nữa nữa lì xì Quỳnh vài đồng đô la",
+    messDesc: ' Thật vui và hạnh phúc nhé 🥳',
     btnAccept: 'Ok',
 }
